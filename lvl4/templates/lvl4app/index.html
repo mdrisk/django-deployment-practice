@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends "lvl4app/base.html" %}
+
+{% load my_extras %}
+
+  {% block body_block %}
+    <h1>Connected to Index!</h1>
+    <h2>This is index .html showing.</h2>
+
+
+    <h2>{{ text|cut2:'world' }}</h2>
+    <h2>{{ number|add:"99"}}</h2>
+
+    {% endblock %}
